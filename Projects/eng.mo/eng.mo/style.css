@@ -1,0 +1,393 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header1{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
+}
+.header1 .nav-left{
+    display: flex;
+    justify-content: space-between;
+}
+.header1 .nav-left p{
+    margin: 0px 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header1 .nav-left p span{
+    color: rgb(243, 243, 20);
+}
+.header1 .nav-left a span{
+    color: white;
+}
+.header1 .nav-left a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    padding-right: 60px;
+    font-size: 18px;
+}
+.header1 .nav-left a:hover{
+    color: rgb(255, 255, 255);
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+}
+.header2 .navleft{
+    margin-top: 50px; 
+    margin-left:30px;
+}
+.header2 .navleft h3{
+    color: rgb(252, 235, 0);
+}
+.header2 .navleft h2{
+    color: rgb(255, 255, 255);
+}
+.header2 .navleft h2 span{
+    color: rgb(223, 209, 6);
+}
+.header2 .navleft p{
+    font-size:15px;
+    margin-top: 20px;
+    color: rgb(98, 97, 97);  
+}
+.header2 .navleft .btu{
+    display: flex;
+    margin-top: 40px;
+}
+.header2 .navleft .btu button{
+    background-color: rgb(252, 193, 1);
+    border-radius:5px ;
+    height: 30px;
+    width: 150px; 
+    border: none;
+    cursor: pointer;
+}
+.header2 .navleft .btu button:hover{
+    background-color: white;
+    color: rgb(252, 193, 1);
+}
+.header2 .navleft .btu i{
+    cursor: pointer;
+    padding-left: 40px;
+    font-size: 25px;
+}
+.header2 .navleft .btu h4{
+    color: rgb(98, 97, 97);
+    padding-left: 10px;
+}
+
+.header3 {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+.header3 h2{
+    color: rgb(255, 255, 255);
+}
+.header3 p{
+    color:rgb(98, 97, 97);
+    margin-top: 20px;
+}
+.parent{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;    
+}
+.parent .icon1 h2,
+.parent .icon2 h2,
+.parent .icon3 h2{
+    padding: 15px 0px;
+    color: rgb(255, 255, 255);
+}
+.parent .icon1 p,
+.parent .icon2 p,
+.parent .icon3 p{
+    color:rgb(98, 97, 97);
+}
+.header4{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+.header4 h2{
+    color: rgb(255, 255, 255);
+}
+.header4 p{
+    color:rgb(98, 97, 97);
+    margin-top: 20px;
+}
+.icon1 i{
+    background-color: rgb(0, 69, 244);
+    border-radius:50% ;
+    width: 20%;
+    height: 60%;
+    color: rgb(250, 250, 250);
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.icon2 i{
+    background-color: rgb(255, 206, 8);
+    border-radius:50% ;
+    width: 20%;
+    height: 60%;
+    color: rgb(250, 250, 250);
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.icon3 i{
+    background-color: rgb(16, 137, 0);
+    border-radius:50%;
+    width: 20%;
+    height: 60%;
+    color: rgb(250, 250, 250);
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.dishs{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* background-color: rgb(47, 43, 43); */
+}
+.dishs .card{
+    width: 15%;
+    height: 370px;
+    border: 2px solid rgb(151, 151, 151);
+    padding: 5px;
+    background-color: rgb(47, 43, 43);
+}
+.dishs .card img{
+    width: 140px;
+    margin-left: 75px;
+
+}
+.dishs .card .star{
+    color: gold;
+    padding: 10px 0px;
+    padding-left: 20px;
+}
+.dishs .card p{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+.dishs .card p .fa-cart-arrow-down{
+    padding-left: 90px;
+    color: rgb(235, 6, 6);
+}
+.dishs .card p .fa-share-from-square{
+    color: rgb(10, 244, 33);
+}
+.div2{
+    background-color: rgb(250, 214, 151);
+    border-radius: 8px;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+.div2 .img{
+    display: flex;
+    align-items: center;
+}
+.div2 .img img{
+    height: 90%;
+    padding-left: 80px;
+}
+.div2 .boob{
+    margin:auto;
+    margin-top: 110px;
+}
+.div2 .boob p span{
+    background-color: gold;
+    color: rgb(254, 254, 254);
+    border-radius: 5px;
+}
+.div2 .boob button{
+    background-color: rgb(252, 193, 1);
+    border-radius:5px ;
+    height: 30px;
+    width: 150px; 
+    border: none;
+    cursor: pointer;
+}
+.div2 .boob button:hover{
+    background-color: rgb(254, 254, 254);
+}
+.phone{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.phone .boob3 {
+    display: flex;
+    justify-content: space-around;
+    animation-name: abd;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.phone .h2{
+    margin-top: 50px;
+    color: rgb(241, 210, 35);
+}
+.phone .h2 p{
+    margin-bottom: 5px;
+    padding: 30px 0px;
+    color: rgb(255, 255, 255);
+}
+.gmail{
+    background-color: rgb(255, 255, 255);
+    box-shadow : 0px 0px 8px 5px gold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    height: 100px;
+    width: 80%;
+    margin-left: 130px;
+}
+.gmail .gmra{
+    display: flex;
+    align-items: center;
+    margin-right:200px
+}
+.gmail .gmlef{
+    display: flex;
+    align-items: center;
+    margin-left:53% ;
+} 
+.gmail .gmra i,
+.gmail .gmlef i{
+    background-color: gold;
+    width: 30px;
+    height: 30px;
+    color: #fff8f8; 
+    border-radius: 50% ;
+    margin-right: 10px;
+    font-size: 28px;
+}
+footer{
+    background-color: rgb(4, 4, 80);
+    color: rgb(251, 251, 252);
+    display: flex;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    padding: 8vh 0;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+footer span{
+    color: gold;
+}
+footer p{
+    padding: 10px 0;
+}
+footer .left .icons{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+footer .left .icons i{
+    padding: 4px 8px;
+    cursor: pointer;
+}
+footer .left .icons i:hover{
+    color: gold;
+}
+footer .center a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+footer .center a:hover{
+    color: gold;
+}
+form{
+    display: flex;
+    position: relative;
+}
+form input{
+    display: block;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 0px 5px 5px rgb(255, 162, 0);
+    border-radius:8px ;
+    padding-left:15px ;
+    border: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+form button{
+    background-color: rgb(255, 162, 0);
+    color: rgb(251, 252, 253);
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    width: 50px;
+    height:40px;
+    border-radius:8px ;
+    border:none ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 75px;
+}
+.div88{
+    background-color:rgb(255, 162, 0); 
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 53px;
+    height: 45px;
+    border-radius: 10px;
+    animation-name: abd;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.div88 a{
+    color: white;
+    text-decoration: none;
+}
+.div88 i{
+    font-size: 33px;
+    padding-top: 12px;
+}
+
+@keyframes abd{
+    to{
+        transform: translateY(-8px);
+    }
+}

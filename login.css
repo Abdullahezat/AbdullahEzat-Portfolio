@@ -1,0 +1,39 @@
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+#vanta-bg {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+.login-box {
+    position: absolute;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    max-width: 450px;
+}
+
+input::placeholder {
+    color: #aaa !important;
+}
+.form-control {
+    background-color: #0d1b2a;
+    border: 1px solid #415a77;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    border: none;
+}

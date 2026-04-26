@@ -1,0 +1,234 @@
+.div0{
+    background-color: brown;
+    padding: 8px;
+}
+.div0 img { 
+    width: 2%;
+    margin-top: 5px;
+    padding-top:5PX ;
+}
+.div0 button{
+    margin: 10px;
+    background-color: rgb(67, 61, 61);
+    color: aliceblue;
+}
+.div1{
+    background-image: url(./image/CHBO9114.JPG);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1px;
+    /* margin-top: -22px; */
+    /* margin-left: -5px; */
+}
+.div1 h1{
+    position: relative;
+    top: 15%;
+}
+.div1 button{
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border-color: brown;
+    position: relative;
+    top: 70px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+.div1 button:hover{
+    background-color: aliceblue;
+    color: brown;
+} 
+table{
+    width: 600px;
+    margin-left: 450px;
+    /* height: 200px; */
+    text-align: center;
+}
+caption{
+    font-size:25px ;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+table tbody{
+    background-color: rgb(113, 112, 112);
+    color: aliceblue;
+}
+table tbody img
+{
+    width: 50px;
+    height: 50px;
+}
+table tbody button{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    border:none;
+}
+table tbody button:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+table tbody .tr2 {
+    background-color: rgb(62, 61, 61);
+}
+/* .tr2 button{
+    background-color: brown;
+    color: #000;
+    border-radius: 12px;
+    width: 80px; 
+    border: none;
+}
+.tr2 button:hover{
+    background-color: aliceblue;
+    color: brown;
+} */
+/* table  img {
+    width: 40px;
+}  */
+h2{
+    text-align: center;
+    font-size: 25px;
+    /* margin-right: 300px; */
+}
+.div5{
+    background-image: url(./image/EZPF5509.JPG);
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center center;
+}
+.div5 .parent{
+    background-color: #616161;
+    /* text-align: center;  */
+    width: 350px;
+    height: 375px;
+    /* margin-top: -3px; */
+    margin-left: 90px;
+    /* margin: 70px; */
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.div5 .parent img{ 
+    width:350px ;
+    height: 150px;
+    /* margin-left: 1px; */
+    margin-top:0px;
+    border-radius: 5px;
+}
+.div5 .parent h2{
+    text-align: center;
+    font-family: 'Allura';
+    font-size: 23px;
+}
+.div5 .parent p{
+    color: aliceblue;
+    margin-left: 10px;
+}
+.div5 .parent button{
+    background-color: brown;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 45px;
+    border: none;
+}
+.parent button:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+.container_1{
+    background-color: rgb(128, 172, 216);
+    width: 582px;
+    height:410px;
+    margin-left: 120px;
+    border-radius: 4px;
+}
+.container_1 img{
+    width: 200px;
+    height: 175px;
+    margin-left: 182px;
+    margin-top: -6px;
+}
+.container_1 h2
+{
+    text-align: center;
+}
+.container_1 p
+{
+    color: white;
+    margin-left: 10px;
+}
+.container_1 button{
+    background-color: rgb(182, 0, 0);
+    color: white;
+    width: 210px;
+    height:40px;
+    margin-left: 177px;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: none;
+}
+.container_1 button:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+.container_2{
+    background-color: rgb(252, 133, 42);
+    width: 580px;
+    height:407px;
+    margin-left: 830px;
+    margin-top: -407px;
+    border-radius: 4px;
+}
+.container_2 img
+{
+    width: 210px;
+    height:180px;
+    margin-left: 185px;
+    margin-top: 15px;
+}
+.container_2 h2
+{
+    text-align: center;
+}
+.container_2 p
+{
+    color: white;
+    margin-left: 10px;
+}
+.container_2 button
+{
+    background-color: rgb(182, 0, 0);
+    color: white;
+    width: 210px;
+    height:40px;
+    margin-left: 192px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.container_2 button:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+footer h1{
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 40PX;
+    padding-top:10PX ;
+}
