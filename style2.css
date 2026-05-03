@@ -223,3 +223,231 @@ text-decoration: none;
     transform: translateY(0);
   }
 }
+
+/* Responsive Design - Tablet Devices */
+@media (max-width: 1024px) {
+  .header1 {
+    padding: 12px 25px;
+  }
+  
+  .header1 .nav-left ul {
+    gap: 20px;
+  }
+  
+  .header1 .nav-left ul li a {
+    font-size: 16px;
+  }
+  
+  .nav-right .logo {
+    font-size: 18px;
+  }
+  
+  .projects {
+    padding: 50px 20px;
+    margin-top: 90px;
+  }
+  
+  .projects h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+  
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+  }
+  
+  .card {
+    height: 350px;
+  }
+  
+  .card img {
+    height: 220px;
+  }
+  
+  .footer {
+    padding: 50px 20px 20px;
+  }
+  
+  .footer-grid {
+    gap: 30px;
+  }
+  
+  .footer-col h3 {
+    font-size: 18px;
+  }
+}
+
+/* Responsive Design - Mobile Devices */
+@media (max-width: 768px) {
+  .header1 {
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .header1 .nav-left ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .header1 .nav-left ul li a {
+    font-size: 14px;
+  }
+  
+  .nav-right .logo {
+    font-size: 16px;
+  }
+  
+  .projects {
+    padding: 40px 15px;
+    margin-top: 120px;
+  }
+  
+  .projects h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    height: 320px;
+  }
+  
+  .card img {
+    height: 200px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .card-content a {
+    font-size: 14px;
+  }
+  
+  .footer {
+    padding: 40px 15px 15px;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    text-align: center;
+  }
+  
+  .footer-col h3 {
+    justify-content: center;
+    font-size: 16px;
+  }
+  
+  .footer-col p {
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    max-width: 100%;
+  }
+  
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+/* Responsive Design - Small Mobile Devices */
+@media (max-width: 480px) {
+  .header1 {
+    padding: 8px 15px;
+  }
+  
+  .header1 .nav-left ul {
+    gap: 10px;
+  }
+  
+  .header1 .nav-left ul li a {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+  
+  .nav-right .logo {
+    font-size: 14px;
+  }
+  
+  .projects {
+    padding: 30px 10px;
+    margin-top: 140px;
+  }
+  
+  .projects h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .card {
+    height: 300px;
+  }
+  
+  .card img {
+    height: 180px;
+  }
+  
+  .card-content {
+    padding: 12px;
+  }
+  
+  .card-content p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .card-content a {
+    font-size: 13px;
+  }
+  
+  .footer {
+    padding: 30px 10px 10px;
+  }
+  
+  .footer-col h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+}

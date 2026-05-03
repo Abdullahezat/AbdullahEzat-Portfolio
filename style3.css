@@ -227,3 +227,200 @@ button:hover {
         transform: translateY(0);
     }
 }
+
+/* Responsive Design - Tablet Devices */
+@media (max-width: 1024px) {
+    .header1 {
+        padding: 12px 25px;
+    }
+    
+    .header1 .nav-left ul {
+        gap: 20px;
+    }
+    
+    .header1 .nav-left ul li a {
+        font-size: 16px;
+    }
+    
+    .nav-right .logo {
+        font-size: 18px;
+    }
+    
+    .contact {
+        padding: 60px 20px;
+        margin-top: 90px;
+    }
+    
+    .contact h2 {
+        font-size: 26px;
+    }
+    
+    .form-container {
+        max-width: 450px;
+        padding: 20px;
+    }
+    
+    .footer {
+        padding: 50px 20px 20px;
+    }
+    
+    .footer-grid {
+        gap: 30px;
+    }
+    
+    .footer-col h3 {
+        font-size: 18px;
+    }
+}
+
+/* Responsive Design - Mobile Devices */
+@media (max-width: 768px) {
+    .header1 {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .header1 .nav-left ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .header1 .nav-left ul li a {
+        font-size: 14px;
+    }
+    
+    .nav-right .logo {
+        font-size: 16px;
+    }
+    
+    .contact {
+        padding: 40px 15px;
+        margin-top: 120px;
+    }
+    
+    .contact h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    
+    .form-container {
+        max-width: 100%;
+        padding: 20px 15px;
+        margin: 0 10px;
+    }
+    
+    input, textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .footer {
+        padding: 40px 15px 15px;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+    
+    .footer-col h3 {
+        justify-content: center;
+        font-size: 16px;
+    }
+    
+    .footer-col p {
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        max-width: 100%;
+    }
+    
+    .social-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+
+/* Responsive Design - Small Mobile Devices */
+@media (max-width: 480px) {
+    .header1 {
+        padding: 8px 15px;
+    }
+    
+    .header1 .nav-left ul {
+        gap: 10px;
+    }
+    
+    .header1 .nav-left ul li a {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    
+    .nav-right .logo {
+        font-size: 14px;
+    }
+    
+    .contact {
+        padding: 30px 10px;
+        margin-top: 140px;
+    }
+    
+    .contact h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .form-container {
+        padding: 15px 10px;
+        margin: 0 5px;
+    }
+    
+    input, textarea {
+        font-size: 13px;
+        padding: 8px;
+    }
+    
+    button {
+        font-size: 13px;
+        padding: 8px;
+    }
+    
+    .footer {
+        padding: 30px 10px 10px;
+    }
+    
+    .footer-col h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-col p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    
+    .social-icons a {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    .footer-bottom {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}

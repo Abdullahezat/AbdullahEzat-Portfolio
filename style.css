@@ -319,3 +319,252 @@ body, html {
     transform: translateY(0);
   }
 }
+
+/* Responsive Design - Tablet Devices */
+@media (max-width: 1024px) {
+  .header1 {
+    padding: 12px 25px;
+  }
+  
+  .header1 .nav-left ul {
+    gap: 20px;
+  }
+  
+  .header1 .nav-left ul li a {
+    font-size: 16px;
+  }
+  
+  .nav-right .logo {
+    font-size: 18px;
+  }
+  
+  .profile-container {
+    padding-top: 700px;
+  }
+  
+  .profile-container .imgmy {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .profile-container h1 {
+    font-size: 26px;
+  }
+  
+  .profile-container h4 {
+    font-size: 22px;
+  }
+  
+  .profile-container p {
+    font-size: 16px;
+    max-width: 700px;
+  }
+  
+  .skills-section {
+    padding: 60px 20px;
+  }
+  
+  .skills-section h2 {
+    font-size: 28px;
+  }
+  
+  .skill-card {
+    width: 110px;
+    height: 110px;
+  }
+  
+  .skill-title {
+    font-size: 14px;
+  }
+}
+
+/* Responsive Design - Mobile Devices */
+@media (max-width: 768px) {
+  .header1 {
+    padding: 10px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .header1 .nav-left ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .header1 .nav-left ul li a {
+    font-size: 14px;
+  }
+  
+  .nav-right .logo {
+    font-size: 16px;
+  }
+  
+  .profile-container {
+    padding-top: 750px;
+    gap: 10px;
+  }
+  
+  .profile-container .imgmy {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-container h1 {
+    font-size: 22px;
+  }
+  
+  .profile-container h4 {
+    font-size: 18px;
+  }
+  
+  .profile-container p {
+    font-size: 14px;
+    max-width: 500px;
+    line-height: 1.8;
+  }
+  
+  .skills-section {
+    padding: 40px 15px;
+  }
+  
+  .skills-section h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .skills-grid {
+    gap: 20px;
+  }
+  
+  .skill-card {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .skill-title {
+    font-size: 12px;
+  }
+  
+  .footer {
+    padding: 40px 15px 15px;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    text-align: center;
+  }
+  
+  .footer-col h3 {
+    justify-content: center;
+    font-size: 16px;
+  }
+  
+  .footer-col p {
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    max-width: 100%;
+  }
+  
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+/* Responsive Design - Small Mobile Devices */
+@media (max-width: 480px) {
+  .header1 {
+    padding: 8px 15px;
+  }
+  
+  .header1 .nav-left ul {
+    gap: 10px;
+  }
+  
+  .header1 .nav-left ul li a {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+  
+  .nav-right .logo {
+    font-size: 14px;
+  }
+  
+  .profile-container {
+    padding-top: 800px;
+  }
+  
+  .profile-container .imgmy {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .profile-container h1 {
+    font-size: 20px;
+  }
+  
+  .profile-container h4 {
+    font-size: 16px;
+  }
+  
+  .profile-container p {
+    font-size: 13px;
+    max-width: 350px;
+  }
+  
+  .skills-section {
+    padding: 30px 10px;
+  }
+  
+  .skills-section h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .skills-grid {
+    gap: 15px;
+  }
+  
+  .skill-card {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .skill-title {
+    font-size: 11px;
+  }
+  
+  .footer {
+    padding: 30px 10px 10px;
+  }
+  
+  .footer-col h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+}
